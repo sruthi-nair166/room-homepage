@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Room homepage</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg position-absolute">
+        <div class="container-fluid pt-5 ps-5 gap-4">
+          <a href="#" class="navbar-brand"
+            ><img src="./images/logo.svg" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-white" href="#">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-white" href="#">shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-white" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-white" href="#">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="row g-0">
+        <div class="col">
+          <img src="./images/desktop-image-hero-1.jpg" alt="" />
+        </div>
+
+        <div class="col d-flex flex-column justify-content-between">
+          <section
+            class="d-flex flex-column justify-content-center align-items-start section-1"
+          >
+            <h1>Discover innovative ways to decorate</h1>
+            <p class="text-secondary">
+              We provide unmatched quality, comfort, and style for property
+              owners across the country. Our experts combine form and function
+              in bringing your vision to life. Create a room in your own style
+              with our collection and make your property a reflection of you and
+              what you love.
+            </p>
+            <button class="btn p-0">
+              <span class="shop-now">SHOP NOW</span>
+              <img src="./images/icon-arrow.svg" alt="" />
+            </button>
+          </section>
+
+          <div class="d-flex">
+            <button class="btn btn-dark btn-lg rounded-0 slide-btn">
+              <img src="./images/icon-angle-left.svg" alt="" />
+            </button>
+            <button class="btn btn-dark btn-lg rounded-0 slide-btn">
+              <img src="./images/icon-angle-right.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+:root {
+  --bs-body-font-family: "League Spartan", sans-serif;
+}
+
+.section-1 {
+  padding: 6rem 6rem 0 6rem;
+  gap: 1rem;
+}
+
+.shop-now {
+  letter-spacing: 1rem;
+  font-weight: 600;
+}
+
+.slide-btn {
+  padding: 2rem;
+}
