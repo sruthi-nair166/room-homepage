@@ -78,47 +78,94 @@
 
     <main>
       <div class="row g-0">
-        <div class="col-lg col-12 position-relative">
+        <div class="col-lg-7 col-12 position-relative">
           <img
+            id="hero-img"
             class="img-fluid w-100"
             src="./images/desktop-image-hero-1.jpg"
             alt=""
           />
 
           <div class="d-flex sliders-wrapper">
-            <button class="slide-btn">
+            <button id="slide-left" class="slide-btn">
               <img src="./images/icon-angle-left.svg" alt="" />
             </button>
-            <button class="slide-btn">
+            <button id="slide-right" class="slide-btn">
               <img src="./images/icon-angle-right.svg" alt="" />
             </button>
           </div>
         </div>
 
-        <div class="col-lg col-12 d-flex flex-column justify-content-between">
+        <div class="col-lg-5 col-12 d-flex flex-column justify-content-between">
           <section
-            class="d-flex flex-column justify-content-center align-items-start section-1"
+            class="d-flex flex-column justify-content-center align-items-start h-100 section-1"
           >
-            <h1>Discover innovative ways to decorate</h1>
-            <p class="text-secondary">
+            <h1 id="hero-title">Discover innovative ways to decorate</h1>
+            <p id="hero-desc" class="text-secondary pt-2">
               We provide unmatched quality, comfort, and style for property
               owners across the country. Our experts combine form and function
               in bringing your vision to life. Create a room in your own style
               with our collection and make your property a reflection of you and
               what you love.
             </p>
-            <button class="btn p-0">
+            <button class="btn p-0 shop-now-btn">
               <span class="shop-now">SHOP NOW</span>
               <img src="./images/icon-arrow.svg" alt="" />
             </button>
           </section>
         </div>
       </div>
+
+      <div class="row g-0">
+        <div class="col-lg-4 col-12">
+          <img
+            class="img-fluid w-100 h-100 object-fit-cover"
+            src="./images/image-about-dark.jpg"
+            alt=""
+          />
+        </div>
+
+        <section
+          class="col-lg-4 col-12 d-flex flex-column justify-content-center align-content-center section-2"
+        >
+          <h2 class="fs-5 fw-bold">ABOUT OUR FURNITURE</h2>
+          <p class="text-secondary">
+            Our multifunctional collection blends design and function to suit
+            your individual taste. Make each room unique, or pick a cohesive
+            theme that best express your interests and what inspires you. Find
+            the furniture pieces you need, from traditional to contemporary
+            styles or anything in between. Product specialists are available to
+            help you create your dream space.
+          </p>
+        </section>
+
+        <div class="col-lg-4 col-12">
+          <img
+            class="img-fluid w-100 h-100 object-fit-cover"
+            src="./images/image-about-light.jpg"
+            alt=""
+          />
+        </div>
+      </div>
     </main>
+
+    <div class="attribution bg-dark text-white p-1">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/sruthi-nair166"
+        >Sruthi V Nair</a
+      >.
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>

@@ -10,6 +10,11 @@
   color: white;
 }
 
+.nav-link:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
 .sliders-wrapper {
   position: absolute;
   bottom: 0;
@@ -17,23 +22,53 @@
   transform: translateX(100%);
 }
 
+.slide-btn {
+  background-color: #212529;
+  border: none;
+  padding: clamp(1rem, 3vw, 2rem);
+  transition: 0.4s;
+}
+
+.slide-btn:hover {
+  background-color: #212529bb;
+}
+
+h1 {
+  letter-spacing: -0.1rem;
+  font-weight: 600;
+}
+
 .section-1 {
-  padding-top: clamp(2rem, 6vw, 6rem);
   padding-inline: clamp(2rem, 6vw, 6rem);
 }
 
 .shop-now {
   letter-spacing: 1rem;
   font-weight: 600;
+  transition: 0.4s;
 }
 
-.slide-btn {
-  background-color: #212529;
-  border: none;
-  padding: clamp(1rem, 3vw, 2rem);
+.shop-now-btn:hover {
+  color: #212529bb;
 }
 
-@media (max-width: 1263px) {
+.section-2 {
+  padding: 2.5rem;
+}
+
+h2 {
+  letter-spacing: 0.3rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 50%, 63%);
+}
+
+@media (max-width: 1280px) {
   .sliders-wrapper {
     transform: translateX(0);
   }
@@ -42,5 +77,8 @@
 @media (max-width: 991px) {
   .nav-link {
     color: #212529;
+  }
+  .section-1 {
+    padding-block: 5rem;
   }
 }
