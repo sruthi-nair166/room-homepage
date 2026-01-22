@@ -2,9 +2,24 @@
   --bs-body-font-family: "League Spartan", sans-serif;
 }
 
+.navbar {
+  z-index: 1050;
+}
+
+.nav-link {
+  color: white;
+}
+
+.sliders-wrapper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translateX(100%);
+}
+
 .section-1 {
-  padding: 6rem 6rem 0 6rem;
-  gap: 1rem;
+  padding-top: clamp(2rem, 6vw, 6rem);
+  padding-inline: clamp(2rem, 6vw, 6rem);
 }
 
 .shop-now {
@@ -13,5 +28,19 @@
 }
 
 .slide-btn {
-  padding: 2rem;
+  background-color: #212529;
+  border: none;
+  padding: clamp(1rem, 3vw, 2rem);
+}
+
+@media (max-width: 1263px) {
+  .sliders-wrapper {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 991px) {
+  .nav-link {
+    color: #212529;
+  }
 }

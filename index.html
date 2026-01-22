@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -24,36 +24,51 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg position-absolute">
-        <div class="container-fluid pt-5 ps-5 gap-4">
+      <nav
+        class="navbar navbar-expand-lg position-absolute top-0 start-0 w-100"
+      >
+        <div
+          class="d-flex flex-lg-row flex-row-reverse justify-content-between w-100 pt-5 px-5 gap-4"
+        >
+          <span></span>
           <a href="#" class="navbar-brand"
             ><img src="./images/logo.svg" alt=""
           /></a>
           <button
             class="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
+            data-bs-toggle="offcanvas"
             data-bs-target="#navbarNav"
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <img src="./images/icon-hamburger.svg" alt="" />
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+          <div
+            class="offcanvas offcanvas-top d-flex flex-row align-items-center justify-content-between px-sm-5 px-4"
+            id="navbarNav"
+          >
+            <button
+              type="button"
+              class="btn-close d-lg-none"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+
+            <ul class="navbar-nav flex-row gap-4">
               <li class="nav-item">
-                <a class="nav-link fw-bold text-white" href="#">home</a>
+                <a class="nav-link fw-bold" href="#">home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-bold text-white" href="#">shop</a>
+                <a class="nav-link fw-bold" href="#">shop</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-bold text-white" href="#">about</a>
+                <a class="nav-link fw-bold" href="#">about</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-bold text-white" href="#">contact</a>
+                <a class="nav-link fw-bold" href="#">contact</a>
               </li>
             </ul>
           </div>
@@ -63,11 +78,24 @@
 
     <main>
       <div class="row g-0">
-        <div class="col">
-          <img src="./images/desktop-image-hero-1.jpg" alt="" />
+        <div class="col-lg col-12 position-relative">
+          <img
+            class="img-fluid w-100"
+            src="./images/desktop-image-hero-1.jpg"
+            alt=""
+          />
+
+          <div class="d-flex sliders-wrapper">
+            <button class="slide-btn">
+              <img src="./images/icon-angle-left.svg" alt="" />
+            </button>
+            <button class="slide-btn">
+              <img src="./images/icon-angle-right.svg" alt="" />
+            </button>
+          </div>
         </div>
 
-        <div class="col d-flex flex-column justify-content-between">
+        <div class="col-lg col-12 d-flex flex-column justify-content-between">
           <section
             class="d-flex flex-column justify-content-center align-items-start section-1"
           >
@@ -84,15 +112,6 @@
               <img src="./images/icon-arrow.svg" alt="" />
             </button>
           </section>
-
-          <div class="d-flex">
-            <button class="btn btn-dark btn-lg rounded-0 slide-btn">
-              <img src="./images/icon-angle-left.svg" alt="" />
-            </button>
-            <button class="btn btn-dark btn-lg rounded-0 slide-btn">
-              <img src="./images/icon-angle-right.svg" alt="" />
-            </button>
-          </div>
         </div>
       </div>
     </main>
