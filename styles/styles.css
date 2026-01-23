@@ -2,6 +2,10 @@
   --bs-body-font-family: "League Spartan", sans-serif;
 }
 
+body {
+  position: relative;
+}
+
 .navbar {
   z-index: 1050;
 }
@@ -67,6 +71,11 @@ h1 {
 
 .shop-now-btn:hover {
   color: #a1a1a1;
+}
+
+.shop-now-btn:focus-visible {
+  outline: 2px solid #a1a1a1;
+  outline-offset: 4px;
 }
 
 .section-2 {
