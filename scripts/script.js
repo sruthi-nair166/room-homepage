@@ -2,7 +2,7 @@ const heroTitle = document.getElementById("hero-title");
 const heroDesc = document.getElementById("hero-desc");
 const carousel = document.getElementById("carouselExample");
 
-let heroData = [
+const heroData = [
   {
     id: 1,
     title: "Discover innovative ways to decorate",

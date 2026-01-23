@@ -63,6 +63,8 @@ Things I learned from this project are:
 
 - Implementing smooth slide transitions and visually appealing focus states for interactive elements.
 
+- Using modern CSS techniques like clamp() to create fluid, responsive spacing and typography without relying solely on media queries.
+
 ### Continued development
 
 Features I wish to add/learn about in the future:
