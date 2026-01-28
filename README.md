@@ -18,6 +18,8 @@
 
 ## Overview
 
+A responsive homepage built as part of the Frontend Mentor challenge, with a focus on accurate UI implementation, responsive layouts, and accessible interactive components. The project features an interactive hero slider with synchronized text and imagery, implemented using Bootstrap’s grid system and custom styling.
+
 ### The challenge
 
 Users should be able to:
